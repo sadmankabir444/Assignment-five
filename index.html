@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
 </head>
 <body class="">
     <header class="bg-white">
@@ -50,171 +51,233 @@
     </header>
     
     <main>
-        
-            <section class="">
-                <section id="product-container" class="w-10/12 mx-auto grid grid-cols-12 gap-8">
-                <section id="product-box" class="bg-green-100 col-span-9 gap-5">
-                    <h1>Cards</h1>
-                    <div class="product-items grid grid-cols-3 gap-5">
-                    <div class="card bg-base-100 shadow-sm">
+            <section class="bg-green-100">
+            <section id="product-container" class="w-10/12 mx-auto grid grid-cols-12 gap-8 py-[60px]">
+            <section id="product-box" class="col-span-9 ">
+                  
+            <div class="product-items grid grid-cols-3 gap-5">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/emergency.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class="emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">National Emergency Number</h2>
+    <p>National Emergency</p>
+    <h1 class="text-xl font-bold">999</h1>
+    <p class="Category-badge">All</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/police.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" bg-blue-100 w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Police Helpline Number</h2>
+    <p>Police</p>
+    <h1 class="text-xl font-bold">999</h1>
+    <p class="Category-badge">Police</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/fire-service.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Fire Service Number</h2>
+    <p>Fire Service</p>
+    <h1 class="text-xl font-bold">999</h1>
+    <p class="Category-badge">Fire</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-
-
-    </div>
-        <div class="product-items grid grid-cols-3 gap-5">
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
+      src="./Images/ambulance.png"
+      alt="Shoes"
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
+    </figure>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Ambulance Service</h2>
+    <p>Ambulance</p>
+    <h1 class="text-xl font-bold">1994-999999</h1>
+    <p class="Category-badge">Health</p>
+    <div class="card-actions">
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+    </div>
+    </div>
+    </div>
+            <div class="card bg-base-100 shadow-sm">
+    <figure class="px-10 pt-10">
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/emergency.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Women & Child Helpline</h2>
+    <p>Women & Child Helpline</p>
+    <h1 class="text-xl font-bold">109</h1>
+    <p class="Category-badge">Help</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/emergency.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Anti-Corruption Helpline</h2>
+    <p>Anti-Corruption</p>
+    <h1 class="text-xl font-bold">106</h1>
+    <p class="Category-badge">Govt.</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/fire-service.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Electricity Helpline</h2>
+    <p>National Emergency</p>
+    <h1 class="text-xl font-bold">16216</h1>
+    <p class="Category-badge">Electricity</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-
-
-    </div>
-        <div class="product-items grid grid-cols-3 gap-5">
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
-      src="./Images/fire-service.png"
+    <div class="flex justify-between w-full">
+        <img
+      src="./Images/ambulance.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Brac Helpline</h2>
+    <p>Brac</p>
+    <h1 class="text-xl font-bold">16445</h1>
+    <p class="Category-badge justify-items-center">NGO</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy text-white"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white" text-white><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm">
     <figure class="px-10 pt-10">
-    <img
+    <div class="flex justify-between w-full">
+        <img
       src="./Images/emergency.png"
       alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
+      class=" emergency-image w-[50px] h-[50px] rounded-[10px]" />
+      <div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
     </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-body">
+    <h2 class="card-title text-lg font-bold">Bangladesh Railway Helpline </h2>
+    <p>Bangladesh Railway</p>
+    <h1 class="text-xl font-bold">163</h1>
+    <p class="Category-badge">Travel</p>
     <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
+      <button  class="btn px-[22px]"><i class="fa-regular fa-copy"></i>Copy</button>
+       <button class="call-btn btn px-[22px] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
     </div>
     </div>
     </div>
-                    <div class="card bg-base-100 shadow-sm">
-    <figure class="px-10 pt-10">
-    <img
-      src="./Images/emergency.png"
-      alt="Shoes"
-      class="rounded-xl w-[60px] h-[60px]" />
-    </figure>
-    <div class="card-body items-center text-center">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
-    </div>
-    </div>
+    
 
 
     </div>
         </section>
-        <aside id="card-box" class="bg-yellow-100 col-span-3">
-            <h1>Call history</h1>
+        <div class="bg-white col-span-3 rounded-[12px] py-7 text-lg">
+            <aside id="" class="flex justify-around ">
+            <div>
+                <h3 class="font-semibold">Call History</h3>
+            </div>
+            <div>
+                <button src="" class="bg-green-400 text-white px-4 py-2 rounded-[20px] font-medium">Clear</button>
+            </div>
         </aside>
+        </div>
                 
         </section>
         </section>
